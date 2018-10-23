@@ -15,7 +15,7 @@ import static hello.RequestValidation.KEY;
 import static hello.RequestValidation.VALUE;
 
 @RestController
-public class RESTManager {
+class ApiRestController {
 
     @RequestMapping(value = "/api/image")
     ResponseEntity<Object> apiImage(@RequestBody JSONObject jsonObject) {
